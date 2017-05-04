@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Rokic Social Commerse</title>
-
+<tiles:insertAttribute name="ext"></tiles:insertAttribute>
 
 </head>
 <body>
