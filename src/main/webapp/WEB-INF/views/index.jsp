@@ -11,7 +11,18 @@
 			<h1> 아이템 1 </h1>
 		</div>
 		<div class="mtitle">
-			<h1> 어저꾸 저쩌구 쌀라쌀라 </h1>
+			<dl id="mlist">
+				<dt> 메뉴 1 </dt>
+					<dd onmouseover="" onclick="status();"> 이력서 지원 현황 </dd>
+					<dd> 이력서 관리 </dd>
+					<dd> 포트폴리오 </dd>
+			</dl>
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	function status(){
+		alert("클릭클릭");
+	}
+</script>
