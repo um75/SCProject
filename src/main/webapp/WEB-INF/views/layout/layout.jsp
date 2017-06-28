@@ -13,8 +13,13 @@
 <body>
 	
 	<div id = "layout">
+		<!-- menu -->
 		<tiles:insertAttribute name="menu"></tiles:insertAttribute>
-		<tiles:insertAttribute name="content"></tiles:insertAttribute>	
+		<!-- index -->
+		<tiles:insertAttribute name="index"></tiles:insertAttribute>
+		<!-- content -->
+		<tiles:insertAttribute name="content"><!-- content inside --> </tiles:insertAttribute>	
+		<!-- ************************** -->
 	</div>
 	
 </body>

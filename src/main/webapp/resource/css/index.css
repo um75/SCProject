@@ -9,11 +9,14 @@ html, body{
 	height : 100%;
 	margin : 0px;
 }
+#mheadline{
+	border : 1px solid yellow;
+}
 #mpopularitem{
-	width : 100%;
+	width : 200px;
 	height : 100%;
-	margin : 0px auto;
 	border : 1px solid black;
+	float : left;
 }
 .mitem{
 	width : 200px;
@@ -34,4 +37,16 @@ dd{
 	border-bottom : 2px solid black;
 	background-color : #c0c0c0;
 	cursor : pointer;
+}
+
+#resumeDiv{
+	height : 100%;
+	border : 1px solid green;
+}
+
+#resumeTbl{
+	border : 1px solid blue;
+	margin : 0px auto;
+	width : 50%;
+	height : 50%;
 }

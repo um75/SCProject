@@ -5,7 +5,7 @@
 	
 	<welcome-file-list>
 		<!-- 처음 시작페이지 파일 제목 안쓰게 설정 -->
-		<welcome-file>index.action</welcome-file>
+		<welcome-file>main.action</welcome-file>
 	</welcome-file-list>
 	
 	

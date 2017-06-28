@@ -7,6 +7,7 @@
 	<definition name = "*" template="/WEB-INF/views/layout/layout.jsp">
 		<put-attribute name="ext" value="/inc/ext.jsp"></put-attribute>
 		<put-attribute name="menu" value="/inc/menu.jsp"></put-attribute>
+		<put-attribute name="index" value="/inc/index.jsp"></put-attribute>
 		<put-attribute name="content" value="/WEB-INF/views/{1}.jsp"></put-attribute>
 	</definition>
 
